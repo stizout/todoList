@@ -1,0 +1,76 @@
+body {
+	font-family: Roboto;
+	background: #e1eec3;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #f05053, #e1eec3);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #f05053, #e1eec3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1 {
+	background-color: #2890b9;
+	text-align: center;
+	font-size: 36px;
+	font-weight: normal;
+	color: white;
+	padding: 10px 20px;
+	margin: 0;
+
+}
+
+.fa-check {
+	float: right;
+}
+
+#container {
+	width: 360px;
+	margin: 100px auto;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.4)
+}
+
+span {
+	background: #2890b9;
+	color: black;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	width: 40px;
+	display: inline-block;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	background-color: white;
+	height: 40px;
+	line-height: 40px;
+	color: black);
+}
+/*nth-child(2n) means every other. if you put 3n would be every 3rd child*/
+
+li:nth-child(2n) {
+	background-color: #f7f7f7
+}
+
+input {
+	font-size: 24px;
+	color: #2890b9;
+	background-color: #f7f7f7;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 13px 13px 13px 20px;
+	border: 3px solid rgba(0,0,0,0);
+}
+input:focus{
+	background-color: white;
+	border: 3px solid #2890b9;
+	outline: none;
+}
+
+.completed {
+	color: gray;
+	text-decoration: line-through;
+}
